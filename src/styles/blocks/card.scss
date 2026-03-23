@@ -34,25 +34,25 @@
     color: $secondary-color;
   }
 
-  &__stars-layout {
+  &__stars-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 24px;
   }
 
-  &__reviews-count {
+  &__reviews {
     font-family: Roboto, sans-serif;
     font-size: 10px;
     line-height: 14px;
     color: $main-accent-color;
   }
 
-  &__price-layout {
+  &__price {
     margin-bottom: 16px;
   }
 
-  &__link-layout {
+  &__link {
     margin-top: auto;
   }
 }

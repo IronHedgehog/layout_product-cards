@@ -2,4 +2,13 @@
   &__card {
     width: 200px;
   }
+
+  &__body {
+    font-family: Roboto, sans-serif;
+    line-height: 1.2; // Або значення згідно з макетом
+    -webkit-font-smoothing: antialiased;
+
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: geometricPrecision;
+  }
 }
